@@ -1,7 +1,7 @@
 # ClaviFrame System
 
 > **Archivio Ufficiale & Manifesto Tecnico**  
-> *Hardware, Firmware e Sviluppo di un sistema di visualizzazione note da disporre direttamete sulla tastiera di un pianoforte modulare e con meccanica ripiegabile a fisarmonica.*
+> *Hardware, Firmware e Sviluppo di un sistema modulare di visualizzazione delle note di un pezzo midi, da disporre direttamente sulla tastiera di un pianoforte. La meccanica del sistema è progettata per essere ripiegabile a fisarmonica.*
 
 ---
 
