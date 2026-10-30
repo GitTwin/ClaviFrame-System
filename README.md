@@ -1,38 +1,38 @@
 # ClaviFrame System
 
-> **Archivio Ufficiale & Manifesto Tecnico**  
-> *Hardware, Firmware e Sviluppo di un sistema modulare di visualizzazione delle note di un pezzo midi, da disporre direttamente sulla tastiera di un pianoforte. La meccanica del sistema è progettata per essere ripiegabile a fisarmonica.*
+> **Official Archive & Technical Manifesto**  
+> *Hardware, Firmware, and Development of a modular note-visualization system placed directly on a piano keyboard, featuring an accordion-style foldable mechanical design.*
 
 ---
 
-## 🚀 Panoramica del Progetto
-Il **ClaviFrame System** è un'architettura hardware e software custom progettata per la gestione e la visualizzazione in tempo reale di flussi MIDI complessi attraverso una struttura fisica modulare (ripiegabile a fisarmonica) stampata in 3D. 
+## 🚀 Project Overview
+The **ClaviFrame System** is a custom hardware and software architecture designed for the real-time management and visualization of complex MIDI streams through a 3D-printed modular physical structure (accordion-foldable). 
 
-Questo repository funge da archivio storico ufficiale del progetto, documentando l'evoluzione dei moduli, i protocolli di comunicazione a basso livello e l'infrastruttura host dedicata.
-
----
-
-## ⚙️ Specifiche Architetturali
-
-### 1. Vettore Hardware
-* **Unità di Elaborazione (MCU):** Raspberry Pi Pico 2 (`RP2350`).
-* **Interfaccia Visiva:** Display LCD `480x480` per singolo modulo, con retroilluminazione stabilizzata (resistenze da 270 Ohm 1/4W) e mitigazione termica distribuita.
-* **Bus di Comunicazione:** Linea bus parallela a 6 fili (`5V`, `12V`, `GND`, `TX`, `RX`, `Spare`). Linea *Spare* (`GPIO5`) dedicata alla sincronizzazione hardware e al clock inter-modulo.
-* **Interfaccia Pedale:** Cablaggio su jack da 3.5 mm collegato al pin CTS del chip CH340G e chiuso a GND, con isolamento galvanico del bus.
-
-### 2. Vettore Software & Host
-* **Ambiente Host:** C++Builder 5 in esecuzione su Windows XP, con core bloccato su singola CPU tramite `SetThreadAffinityMask` (anti Hyper-Threading).
-* **Core MIDI:** DLL in C++11 basata sulla libreria di Stuart Craig, con dump binario su MidiOut ed esposizione `extern C`.
-* **Ottimizzazione delle Performance:** Gestione a 60 FPS con gestione dello LCD mediante tecnica a double buffer a dimensione fissa (480 righe) in RAM e gestione dell'interfaccia RGB666 con rotazione logica per DMA/PIO.
+This repository serves as the official historical archive of the project, documenting the evolution of the modules, low-level communication protocols, and the dedicated host infrastructure.
 
 ---
 
-## 📺 Canale YouTube Ufficiale
-Le dimostrazioni pratiche, i test dei 16 moduli fisicamente assemblati e gli approfondimenti tecnici sull'hardware sono pubblicati in azione sul canale ufficiale:
+## ⚙️ Architectural Specifications
 
-👉 **[Link al Canale YouTube del ClaviFrame System](#)** *(https://www.youtube.com/@ClaviFrameSystem)*
+### 1. Hardware Vector
+* **Processing Unit (MCU):** Raspberry Pi Pico 2 (`RP2350`).
+* **Visual Interface:** `480x480` LCD display per single module, featuring stabilized backlighting (270 Ohm 1/4W resistors) and distributed thermal mitigation.
+* **Communication Bus:** 6-wire parallel bus line (`5V`, `12V`, `GND`, `TX`, `RX`, `Spare`). *Spare* line (`GPIO5`) dedicated to hardware synchronization and inter-module clock.
+* **Pedal Interface:** 3.5 mm jack wiring connected to the CTS pin of the CH340G chip and pulled to GND, with galvanic bus isolation.
+
+### 2. Software & Host Vector
+* **Host Environment:** C++Builder 5 running on Windows XP, with core locking on a single CPU via `SetThreadAffinityMask` (anti Hyper-Threading).
+* **Core MIDI:** C++11 DLL based on Stuart Craig's library, featuring binary dump to MidiOut and `extern C` exposure.
+* **Performance Optimization:** 60 FPS management utilizing a fixed-size double-buffer technique (480 rows) in RAM for the LCD, and RGB666 interface handling with logical rotation for DMA/PIO.
 
 ---
 
-## 📜 Licenza
-Questo progetto è rilasciato sotto licenza [MIT](LICENSE) - Consultare il file di licenza per i dettagli.
+## 📺 Official YouTube Channel
+Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on the official channel:
+
+👉 **[Official YouTube Channel - ClaviFrame System](https://www.youtube.com/@ClaviFrameSystem)**
+
+---
+
+## 📜 License
+This project is released under the [MIT License](LICENSE) - See the license file for details.
