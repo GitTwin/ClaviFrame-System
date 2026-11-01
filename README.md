@@ -37,20 +37,15 @@ For an in-depth analysis of the individual modules and firmware, please refer to
 
 ## 📺 Official YouTube Channel
 
-Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel.
-
-<div align="center">
-  <a href="https://youtube.com">
-    <img src="https://shields.io" alt="YouTube Channel">
-  </a>
-</div>
+* **[ClaviFrame System](https://www.youtube.com/@ClaviFrameSystem)**  
+*Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel.*
 
 Depending on the level of detail you are looking for, you can follow two video paths:
 
-* **[ClaviFrame - Features & Demos](https://youtube.com/playlists)**  
+* **[Features & Demos](https://www.youtube.com/@ClaviFrameSystem/playlists)**  
   *Practical demonstrations of the system in action, MIDI stream management, and visual feedback on the piano keyboard.*
   
-* **[ClaviFrame - The Making Of... (Coming Soon)](https://youtube.com)**  
+* **[The Making Of... (Coming Soon)](https://youtube.com)**  
   *The technical series dedicated to firmware development (Raspberry Pi Pico 2), the C++Builder architecture on Windows XP, and hardware assembly.*
 
 ---
