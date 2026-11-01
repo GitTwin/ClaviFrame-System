@@ -45,8 +45,6 @@ Practical demonstrations, tests of the 16 physically assembled modules, and deep
   </a>
 </div>
 
-<br>
-
 Depending on the level of detail you are looking for, you can follow two video paths:
 
 * **[ClaviFrame - Features & Demos](https://youtube.com/playlists)**  
