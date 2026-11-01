@@ -27,27 +27,25 @@ This repository serves as the official historical archive of the project, docume
 
 ---
 
-## 📁 Documentation
-Per un'analisi approfondita dell'architettura e dei singoli moduli, consulta la documentazione dettagliata nella cartella `docs`:
+## 📁 Technical Documentation
 
-* [Guida all'Installazione e Configurazione](docs/installazione.md)
-* [Specifiche dei Protocolli di Comunicazione](docs/protocolli.md)
-* [Manuale dei Moduli Hardware (16 moduli)](docs/hardware_moduli.md)
+For an in-depth analysis of the individual modules and firmware, please refer to the dedicated guides in the `docs` folder:
+* [16-Module Specifications](docs/modules_specs.md)
+* [Communication Protocols & Bus Layout](docs/protocols.md)
+* 
 
 ## 📺 Official YouTube Channel
-Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on the official channel:
-
 👉 **[Official YouTube Channel - ClaviFrame System](https://www.youtube.com/@ClaviFrameSystem)**
 
-Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel. 
+Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel.
 
-A seconda del livello di dettaglio che cerchi, puoi seguire due percorsi video:
+Depending on the level of detail you are looking for, you can follow two video paths:
 
-* **[ClaviFrame - Funzionalità e Demo](https://youtube.com)**  
-  *Dimostrazioni pratiche del sistema in azione, gestione dei flussi MIDI e resa visiva sulla tastiera.*
+* **[ClaviFrame - Features & Demos](https://youtube.com)**  
+  *Practical demonstrations of the system in action, MIDI stream management, and visual feedback on the piano keyboard.*
   
-* **[ClaviFrame - The Making Of... (In arrivo)](https://youtube.com)**  
-  *La serie tecnica dedicata allo sviluppo firmware (Raspberry Pi Pico 2), all'architettura C++Builder su Windows XP e all'assemblaggio dell'hardware.*
+* **[ClaviFrame - The Making Of... (Coming Soon)](https://youtube.com)**  
+  *The technical series dedicated to firmware development (Raspberry Pi Pico 2), the C++Builder architecture on Windows XP, and hardware assembly.*
 
 ---
 
