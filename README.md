@@ -34,6 +34,8 @@ For an in-depth analysis of the individual modules and firmware, please refer to
 * [Communication Protocols & Bus Layout](docs/protocols.md)
 * 
 
+---
+
 ## 📺 Official YouTube Channel
 👉 **[Official YouTube Channel - ClaviFrame System](https://www.youtube.com/@ClaviFrameSystem)**
 
