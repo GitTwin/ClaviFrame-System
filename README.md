@@ -37,17 +37,15 @@ For an in-depth analysis of the individual modules and firmware, please refer to
 
 ## 📺 Official YouTube Channel
 
-* **[ClaviFrame System](https://www.youtube.com/@ClaviFrameSystem)**  
-*Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel.*
-
-Depending on the level of detail you are looking for, you can follow two video paths:
-
-* **[Features & Demos](https://www.youtube.com/@ClaviFrameSystem/playlists)**  
-  *Practical demonstrations of the system in action, MIDI stream management, and visual feedback on the piano keyboard.*
+* <img src="https://yt3.ggpht.com/fLU9FasrhSwZtXxpJuSyPmQh1pYS1tXrZbnYzEx_uKByCx20HWTzgBOkS9TwcaH-Mn58IaVULyU=s600-c-k-c0x00ffffff-no-rj-rp-mo" width="60" align="absmiddle"> **[ClaviFrame System](https://www.youtube.com/@ClaviFrameSystem)**  
+  Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel.
   
-* **[The Making Of... (Coming Soon)](https://youtube.com)**  
-  *The technical series dedicated to firmware development (Raspberry Pi Pico 2), the C++Builder architecture on Windows XP, and hardware assembly.*
-
+  Depending on the level of detail you are looking for, you can follow two video paths:
+    * **[Features & Demos](LINK_PLAYLIST_1)**  
+      *Practical demonstrations of the system in action, MIDI stream management, and visual feedback on the piano keyboard.*
+      
+    * **[The Making Of... (Coming Soon)](LINK_PLAYLIST_2)**  
+      *The technical series dedicated to firmware development (Raspberry Pi Pico 2), the C++Builder architecture on Windows XP, and hardware assembly.*
 ---
 
 ## 📜 License
