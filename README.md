@@ -32,18 +32,24 @@ This repository serves as the official historical archive of the project, docume
 For an in-depth analysis of the individual modules and firmware, please refer to the dedicated guides in the `docs` folder:
 * [16-Module Specifications](docs/modules_specs.md)
 * [Communication Protocols & Bus Layout](docs/protocols.md)
-* 
-
+  
 ---
 
 ## 📺 Official YouTube Channel
-👉 **[Official YouTube Channel - ClaviFrame System](https://www.youtube.com/@ClaviFrameSystem)**
 
 Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel.
 
+<div align="center">
+  <a href="https://youtube.com">
+    <img src="https://shields.io" alt="YouTube Channel">
+  </a>
+</div>
+
+<br>
+
 Depending on the level of detail you are looking for, you can follow two video paths:
 
-* **[ClaviFrame - Features & Demos](https://youtube.com)**  
+* **[ClaviFrame - Features & Demos](https://youtube.com/playlists)**  
   *Practical demonstrations of the system in action, MIDI stream management, and visual feedback on the piano keyboard.*
   
 * **[ClaviFrame - The Making Of... (Coming Soon)](https://youtube.com)**  
