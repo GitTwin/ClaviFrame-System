@@ -21,7 +21,7 @@ This repository serves as the official historical archive of the project, docume
 * **Pedal Interface:** 3.5 mm jack wiring connected to the CTS pin of the CH340G chip and pulled to GND, with galvanic bus isolation.
 
 ### 2. Software & Host Vector
-* **Host Environment:** C++Builder 5 running on Windows XP, with core locking on a single CPU via `SetThreadAffinityMask` (anti Hyper-Threading).
+* **Host Pc Environment:** C++Builder 5 running on Windows XP, with core locking on a single CPU via `SetThreadAffinityMask` (anti Hyper-Threading).
 * **Core MIDI:** C++11 DLL based on Stuart Craig's library, featuring binary dump to MidiOut and `extern C` exposure.
 * **Performance Optimization:** 60 FPS management utilizing a fixed-size double-buffer technique (480 rows) in RAM for the LCD, and RGB666 interface handling with logical rotation for DMA/PIO.
 
@@ -30,9 +30,10 @@ This repository serves as the official historical archive of the project, docume
 ## 📁 Technical Documentation
 
 For an in-depth analysis of the individual modules and firmware, please refer to the dedicated guides in the `docs` folder:
-* [16-Module Specifications](docs/modules_specs.md)
-* [Communication Protocols & Bus Layout](docs/protocols.md)
-  
+* [Program Pc Host Specifications](docs/CfPc_specs.md)*
+* [16-Module Specifications](docs/CfModule_specs.md)*
+* [Communication Protocols & Bus Layout](docs/protocols.md)*
+
 ---
 
 ## 📺 Official YouTube Channel
