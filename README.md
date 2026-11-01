@@ -41,10 +41,10 @@ For an in-depth analysis of the individual modules and firmware, please refer to
   Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel.
   
   Depending on the level of detail you are looking for, you can follow two video paths:
-    * **[Features & Demos](LINK_PLAYLIST_1)**  
+    * **[Features & Demos](https://www.youtube.com/@ClaviFrameSystem/playlists)**  
       *Practical demonstrations of the system in action, MIDI stream management, and visual feedback on the piano keyboard.*
       
-    * **[The Making Of... (Coming Soon)](LINK_PLAYLIST_2)**  
+    * **[The Making Of... (Coming Soon)](https://www.youtube.com/@ClaviFrameSystem/playlists).**  
       *The technical series dedicated to firmware development (Raspberry Pi Pico 2), the C++Builder architecture on Windows XP, and hardware assembly.*
 ---
 
