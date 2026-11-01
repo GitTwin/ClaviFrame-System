@@ -38,7 +38,6 @@ Per un'analisi approfondita dell'architettura e dei singoli moduli, consulta la 
 Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on the official channel:
 
 👉 **[Official YouTube Channel - ClaviFrame System](https://www.youtube.com/@ClaviFrameSystem)**
-## 📺 Official YouTube Channel
 
 Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on our official channel. 
 
@@ -49,14 +48,6 @@ A seconda del livello di dettaglio che cerchi, puoi seguire due percorsi video:
   
 * **[ClaviFrame - The Making Of... (In arrivo)](https://youtube.com)**  
   *La serie tecnica dedicata allo sviluppo firmware (Raspberry Pi Pico 2), all'architettura C++Builder su Windows XP e all'assemblaggio dell'hardware.*
-
-<br>
-
-<div align="center">
-  <a href="https://youtube.com">
-    <img src="https://shields.io" alt="YouTube Channel">
-  </a>
-</div>
 
 ---
 
