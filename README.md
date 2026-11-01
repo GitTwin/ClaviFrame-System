@@ -27,6 +27,13 @@ This repository serves as the official historical archive of the project, docume
 
 ---
 
+## 📁 Documentation
+Per un'analisi approfondita dell'architettura e dei singoli moduli, consulta la documentazione dettagliata nella cartella `docs`:
+
+* [Guida all'Installazione e Configurazione](docs/installazione.md)
+* [Specifiche dei Protocolli di Comunicazione](docs/protocolli.md)
+* [Manuale dei Moduli Hardware (16 moduli)](docs/hardware_moduli.md)
+
 ## 📺 Official YouTube Channel
 Practical demonstrations, tests of the 16 physically assembled modules, and deep dives into the hardware are published in action on the official channel:
 
