@@ -30,7 +30,7 @@ This repository serves as the official historical archive of the project, docume
 ## 📁 Technical Documentation
 
 For an in-depth analysis of the individual modules and firmware, please refer to the dedicated guides in the `docs` folder:
-* [Episode 00: Incipit, Origin Problem & Architecture Overview](docs/cf_episode_00.md) - *The initial technical manifesto, project genesis, hardware constraints (Raspberry Pi Pico 2 / RP2350), and architectural choices for the C++Builder 5 host on Windows XP.*
+* [Incipit, Origin Problem & Architecture Overview](docs/cf_episode_00.md) - *The initial technical manifesto, project genesis, hardware constraints (Raspberry Pi Pico 2 / RP2350), and architectural choices for the C++Builder 5 host on Windows XP.*
 <!-- 
 * [Program Pc Host Specifications](docs/CfPc_specs.md)*
 * [16-Module Specifications](docs/CfModule_specs.md)*
