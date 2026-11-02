@@ -1,4 +1,4 @@
-# ClaviFrame System — Episode 00: Incipit and Origin Problem
+# ClaviFrame System — Incipit and Origin Problem
 
 > **Technical & Historical Background**  
 > *This document serves as the foundational narrative and technical background for Episode 00 of the ClaviFrame System project, exploring the roots, design choices, and architectural constraints of the hardware-software stack.*
